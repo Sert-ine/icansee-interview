@@ -20,8 +20,10 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    margin: 0;
-    padding: 0 33%;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    max-width: 610px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,11 +66,17 @@ body > div {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .LoginBox label, .LoginBox input {
     width:100%;
+    font-weight: bold;
     font-size: min(2vw,2vh);
+}
+
+.LoginBox input {
+    font-size: min(5vw,5vh);
 }
 
 .LoginButton {
@@ -76,6 +84,11 @@ body > div {
     width:100%;
     font-size: 3vw;
     color: white;
+    font-size: min(3vw,3vh)!important;
+}
+
+.LoginBox a {
+    color: var(--blue)
 }
 
 .FullSize {
