@@ -1,0 +1,58 @@
+:root {
+    --black: #000;
+    --green: #67cd31;
+    --blue: #009ad9;
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(fonts/Poppins-Medium.ttf);
+}
+
+body {
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0 33%;
+}
+
+h1 {
+    font-size: 28px;
+    font-family: Poppins-Bold;
+}
+
+label {
+    font-size: 14px;
+    font-family: Poppins-Medium;
+}
+
+.LoginBox {
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.25);
+    background-color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Card {
+    border-radius: 8px;
+    padding: 5%;
+    box-sizing: border-box;
+    border: none;
+}
+
+.Card li {
+    list-style-type: none;
+}
